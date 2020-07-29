@@ -1,0 +1,5 @@
+<form [formGroup]="myForm" (ngSubmit)="save()">
+	<p-calendar formControlName="myDate" dataType="string" [dateFormat]="'mm/dd/yy'"></p-calendar><br><br>
+  <!-- <input type="date" formControlName="birthdate"><br><br> -->
+  <button type="submit" >Save</button>
+</form>
